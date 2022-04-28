@@ -3,3 +3,5 @@ Compile in CMAKE and edit lines in the CMakeLists.txt that point to include and 
 To compile:
 cmake ./ -DVEGAS_BASE_DIR=$VEGAS
 cmake --build .
+
+To run this macro there must be pairs of RooDataSets, each with different noise levels and the noise levels are adjacent values. 
